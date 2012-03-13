@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A008A2C1150F08510022BE11 /* black-Linen.png in Resources */ = {isa = PBXBuildFile; fileRef = A008A2C0150F08510022BE11 /* black-Linen.png */; };
 		A0999CA1150ECDAE002F69E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0999CA0150ECDAE002F69E6 /* Cocoa.framework */; };
 		A0999CAB150ECDAE002F69E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0999CA9150ECDAE002F69E6 /* InfoPlist.strings */; };
 		A0999CAD150ECDAE002F69E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0999CAC150ECDAE002F69E6 /* main.m */; };
@@ -16,17 +17,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A008A2C0150F08510022BE11 /* black-Linen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-Linen.png"; sourceTree = "<group>"; };
 		A0999C9C150ECDAE002F69E6 /* KioskTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KioskTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0999CA0150ECDAE002F69E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A0999CA3150ECDAE002F69E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A0999CA4150ECDAE002F69E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A0999CA5150ECDAE002F69E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A0999CA8150ECDAE002F69E6 /* KioskTest-Info.plist */ = {isa = PBXFileReference; path = "KioskTest-Info.plist"; sourceTree = "<group>"; };
+		A0999CA8150ECDAE002F69E6 /* KioskTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KioskTest-Info.plist"; sourceTree = "<group>"; };
 		A0999CAA150ECDAE002F69E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0999CAC150ECDAE002F69E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A0999CAE150ECDAE002F69E6 /* KioskTest-Prefix.pch */ = {isa = PBXFileReference; path = "KioskTest-Prefix.pch"; sourceTree = "<group>"; };
+		A0999CAE150ECDAE002F69E6 /* KioskTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KioskTest-Prefix.pch"; sourceTree = "<group>"; };
 		A0999CB0150ECDAE002F69E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		A0999CB2150ECDAE002F69E6 /* rAppDelegate.h */ = {isa = PBXFileReference; path = rAppDelegate.h; sourceTree = "<group>"; };
+		A0999CB2150ECDAE002F69E6 /* rAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rAppDelegate.h; sourceTree = "<group>"; };
 		A0999CB3150ECDAF002F69E6 /* rAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rAppDelegate.m; sourceTree = "<group>"; };
 		A0999CB6150ECDAF002F69E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A008A2BE150F08250022BE11 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A008A2C0150F08510022BE11 /* black-Linen.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		A0999C91150ECDAE002F69E6 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 		A0999CA6150ECDAE002F69E6 /* KioskTest */ = {
 			isa = PBXGroup;
 			children = (
+				A008A2BE150F08250022BE11 /* resources */,
 				A0999CB2150ECDAE002F69E6 /* rAppDelegate.h */,
 				A0999CB3150ECDAF002F69E6 /* rAppDelegate.m */,
 				A0999CB5150ECDAF002F69E6 /* MainMenu.xib */,
@@ -157,6 +168,7 @@
 				A0999CAB150ECDAE002F69E6 /* InfoPlist.strings in Resources */,
 				A0999CB1150ECDAE002F69E6 /* Credits.rtf in Resources */,
 				A0999CB7150ECDAF002F69E6 /* MainMenu.xib in Resources */,
+				A008A2C1150F08510022BE11 /* black-Linen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				A0999CBC150ECDAF002F69E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

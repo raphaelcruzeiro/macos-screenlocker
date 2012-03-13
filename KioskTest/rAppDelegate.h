@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface rAppDelegate : NSObject <NSApplicationDelegate>
+@interface rAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate> {
+    bool shouldTerminate;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) NSMutableArray *blockers;
+@property (assign) IBOutlet NSView *contentView;
+
+- (IBAction)unlockScreen:(id)sender;
 
 @end
