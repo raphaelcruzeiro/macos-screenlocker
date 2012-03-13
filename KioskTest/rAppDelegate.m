@@ -59,7 +59,8 @@
     }
     
     @try {
-        NSApplicationPresentationOptions options = NSApplicationPresentationHideDock + NSApplicationPresentationHideMenuBar + NSApplicationPresentationDisableForceQuit;
+        NSApplicationPresentationOptions options = NSApplicationPresentationHideDock + NSApplicationPresentationHideMenuBar + NSApplicationPresentationDisableForceQuit +
+            NSApplicationPresentationDisableProcessSwitching;
         [NSApp setPresentationOptions:options];
     }
     @catch(NSException * exception) {
